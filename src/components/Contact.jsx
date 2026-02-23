@@ -53,7 +53,7 @@ const Contact = ({ language }) => {
     // შენი EmailJS კოდები
     const SERVICE_ID = "ffpoa5JOsx7L537lyaKHp";
     const TEMPLATE_ID = "oxQOXyQEmz577J7eg";
-    const PUBLIC_KEY = "z577J7eg"; // შენი მოწოდებული გასაღები
+    const PUBLIC_KEY = "ffpoa5JOsx7L537lyaKHp"; // შენი მოწოდებული გასაღები
 
     emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
       .then((result) => {
